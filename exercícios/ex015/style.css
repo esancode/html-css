@@ -1,0 +1,30 @@
+            div#principal{
+                font-family: sans-serif; color: #0000ff94;
+                background-color: rgba(0, 123, 255, 0.134);
+                height: 300px;
+                width: 800px;
+                border: 8px solid #0000ff94;
+                margin-top: 100px;
+                margin: auto;
+                text-align: center;
+            }
+            h1{
+                margin-top: 10px;
+            }
+            .box{
+                display: inline-block;
+                height: 150px;
+                width: 150px;
+                border: 8px solid rgb(80, 61, 61);
+                box-shadow: 20px 10px 20px #0000ff2e;
+            }
+            div#es{
+                background-color: rgb(255, 0, 170);
+            }
+            div#ce{
+                background-color: yellow;
+                margin-inline: 50px;
+            }
+            div#di{
+                background-color: rgb(41, 211, 41);
+            }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixas</title>
+    <style>
+        div.square{
+            display: inline-block;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            font-size: 1em;
+            background-color:gray;
+            border: 2px solid black;
+        }
+
+
+        div#d1:hover{
+            background-color: aqua;
+        }
+        div#d2:hover{
+            background-color: greenyellow;
+        }
+        div#d3:hover{
+            background-color: pink;
+        }
+        div#d4:hover{
+            background-color: blueviolet; color: white;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display:block
+        }
+    </style>
+</head>
+<body>
+    <div id="d1" class="square">1</div>
+    <div id="d2" class="square">2</div>
+    <div id="d3" class="square">3</div>
+    <p> </p>
+    <div id="d4">passe o mouse aqui<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo iure eaque officia. Officia voluptate nam eveniet vitae nulla eos, cum quia ad non fugiat exercitationem sed velit iste mollitia error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aspernatur totam minima. Sequi quas magnam temporibus, optio a harum explicabo neque repudiandae debitis incidunt ratione pariatur dolor, esse doloribus maxime. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, itaque necessitatibus iste ab sunt ullam totam, omnis eaque alias quia deleniti maiores corporis, consequuntur distinctio unde accusantium. Soluta, maiores quos?</p></div>
+</body>
+</html>
