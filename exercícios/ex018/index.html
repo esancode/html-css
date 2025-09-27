@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="form.php">
+        escolha seu sexo
+        <fieldset>
+            <input type="radio" name="sexo" id="sexof">femea
+            <input type="radio" name="sexo" id="sexom">macho <br>
+        </fieldset>
+
+        escolha seu país
+        <fieldset>
+            <input type="checkbox">brasil
+            <input type="checkbox">alemanha
+            <input type="checkbox">argentina <br>
+        </fieldset>
+
+        escolha seu país <br>
+        <select name="pais" id="pais">
+            <option value="">brasil</option>
+            <option value="">alemanha</option>
+            <option value="">argentina</option>
+        </select> <br>
+
+        digite sua profissão <br>
+        <input type="text" name="" id="profission" list="profissionn">
+        <datalist id="profissionn">
+            <option value="m"></option>
+            <option value="e"></option>
+            <option value="c"></option>
+        </datalist>
+
+        <input type="submit" value="mandar">
+    </form>
+</body>
+</html>
