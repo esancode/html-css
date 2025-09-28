@@ -1,0 +1,35 @@
+@media (min-width: 360px) {
+
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    .main_phone {display: none;}
+    .main_print {display: none;}
+    .main_tablet {display: block;}
+    .main_pc {display: none;}
+    .main_tv {display: none;}
+}
+
+@media (min-width: 832px) {
+
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    .main_phone {display: none;}
+    .main_print {display: none;}
+    .main_tablet {display: none;}
+    .main_pc {display: block;}
+    .main_tv {display: none;}
+}
+
+@media (min-width: 1152px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    .main_phone {display: none;}
+    .main_print {display: none;}
+    .main_tablet {display: none;}
+    .main_pc {display: none;}
+    .main_tv {display: block;}
+
+}
