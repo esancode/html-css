@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+}
+.widget_navbar {
+    display: flex;
+    justify-content: center;
+    align-items: st;
+    background-color: rgb(252, 49, 252);
+    height: 40px;
+    color: white;
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.623);
+}
+
+.widget_overview {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin: auto;
+    padding: 10px;
+    height: auto;
+    width: 640px;
+    color: white;
+}
+
